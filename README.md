@@ -25,6 +25,7 @@ year = "1888"
 * Use try/except
 * Offer the ability to read info from a file instead of modifying the script directly
 * Run headless (currently if you run headless it seems to have trouble fetching xpath)
+  * Found a similar issue here with no clear resolution https://github.com/SeleniumHQ/selenium/issues/4477
 * Run as a cron job, writing the latest state to a file. Then, check the state in the file against the retrieved state every time the script runs. If states are different, report, else quit silently.
   * Possibly run this serverless too, in the cloud with S3 to store state
 
